@@ -1,0 +1,68 @@
+
+#Created by Constraints Editor (xc6slx9-tqg144-3) - 2018/06/28
+NET "clk50m_in" TNM_NET = "clk50m_in";
+TIMESPEC TS_clk50m_in = PERIOD "clk50m_in" 20 ns HIGH 50 %;
+
+# PlanAhead Generated physical constraints 
+
+NET "btn1_in" LOC = P133;
+
+# PlanAhead Generated IO constraints 
+
+NET "btn1_in" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "btn2_in" LOC = P132;
+
+# PlanAhead Generated IO constraints 
+
+NET "btn2_in" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "btn3_in" LOC = P131;
+
+# PlanAhead Generated IO constraints 
+
+NET "btn3_in" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "clk50m_in" LOC = P21;
+
+# PlanAhead Generated IO constraints 
+
+NET "clk50m_in" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "sw1_in" LOC = P134;
+
+# PlanAhead Generated IO constraints 
+
+NET "sw1_in" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "sw2_in" LOC = P137;
+
+# PlanAhead Generated IO constraints 
+
+NET "sw2_in" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "ld1_out" LOC = P44;
+
+# PlanAhead Generated IO constraints 
+
+NET "ld1_out" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "ld2_out" LOC = P45;
+
+# PlanAhead Generated IO constraints 
+
+NET "ld2_out" IOSTANDARD = LVCMOS33;
